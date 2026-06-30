@@ -51,6 +51,9 @@ This will:
 - Start the FastAPI backend on `http://localhost:8000` (Swagger UI at `/docs`).
 - Start the Streamlit frontend on `http://localhost:8501`.
 
+<img width="1920" height="880" alt="Screenshot from 2026-06-30 14-13-00" src="https://github.com/user-attachments/assets/36bbd2ba-2e32-4459-a5d7-4f507b428261" />
+
+
 ## Example Queries to Try in the UI
 - "How many tickets are currently open?"
 - "Show me all Critical tickets not resolved."
