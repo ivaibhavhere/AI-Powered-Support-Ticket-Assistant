@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # End-to-End AI System: Support Ticket Assistant
 
 This is an AI-powered system that ingests customer support tickets, allows users to ask natural language questions against the data, and detects anomalies. It was built for the AI Engineer assessment at DOTMappers IT Pvt. Ltd.
@@ -60,3 +61,6 @@ This will:
 - The LangChain Zero-Shot React agent can sometimes hallucinate columns if the prompt isn't highly constrained.
 - Statistical anomaly detection requires at least 3 resolved tickets per category to calculate standard deviation.
 - Data ingestion is currently set to `replace` the table on every run for simplicity. In production, this should be an upsert pipeline.
+=======
+# AI-Powered-Support-Ticket-Assistant
+>>>>>>> 48484dda5e592a3d403989108bf678818108bc25
