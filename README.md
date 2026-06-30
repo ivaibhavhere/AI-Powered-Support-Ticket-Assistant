@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 # End-to-End AI System: Support Ticket Assistant
 
-This is an AI-powered system that ingests customer support tickets, allows users to ask natural language questions against the data, and detects anomalies. It was built for the AI Engineer assessment at DOTMappers IT Pvt. Ltd.
+This is an AI-powered system that ingests customer support tickets, allows users to ask natural language questions against the data, and detects anomalies.
 
 ## Features
 1. **Data Ingestion:** Automatically reads `support_tickets.csv` and loads it into a SQLite database with indexed columns for fast querying.
@@ -22,7 +22,7 @@ This is an AI-powered system that ingests customer support tickets, allows users
 
 ### Prerequisites
 - Python 3.9+
-- A free Groq API key (from [console.groq.com](https://console.groq.com)) or a Google Gemini API Key.
+- A free Google Gemini API Key.
 
 ### 1. Install Dependencies
 ```bash
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 Copy `.env.example` to `.env` and add your API key:
 ```bash
 cp .env.example .env
-# Edit .env and paste your GROQ_API_KEY
+# Edit .env and paste your GEMINI_API_KEY
 ```
 
 ### 3. Ensure Dataset exists
