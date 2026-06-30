@@ -1,0 +1,21 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database
+tickets.db
+
+# Environment Variables
+.env
+
+# Streamlit
+.streamlit/
+
+# OS Files
+.DS_Store
